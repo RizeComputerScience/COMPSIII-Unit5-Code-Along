@@ -20,6 +20,21 @@ def main():
     print('\nCart Info:')
     cart.display_cart()
     print(cart)
+
+    print('\nItem Info:')
+    print(laptop)
+    print(headphones)
+    print(shirt)
+    print(pants)
+    print(phone)
+    print(tv)
+
+    #Update Clothing Info:
+    shirt.set_size("L")
+    shirt.set_color("Green")
+
+    print('\nUpdated Item Info:')
+    print(shirt)
     # End code from last week's code along
 
 
