@@ -6,7 +6,7 @@ This unit we will be finishing our e-commerce store by implementing polymorphism
 
 ## VS Code - app.py has syntax instructions
 1. In `ClothingProduct`, change the `clothing_info` method to a `__str__` method.
-2. In `ElectronicsProduct`, change the `clothing_info` method to a `__str__` method.
+2. In `ElectronicsProduct`, change the `electronics_info` method to a `__str__` method.
 3. Run the tests! `test_clothing_polymorphism` and `test_electronics_polymorphism` should now be passing.
 
 ## VS Code - main.py has syntax instructions

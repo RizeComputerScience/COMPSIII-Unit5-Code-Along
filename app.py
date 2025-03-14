@@ -1,4 +1,4 @@
-# Code from Week 2 and 3code along
+# Code from Week 2 and 3 code along
 class Product:
     def __init__(self, name, price, sku):
         self.name = name
@@ -29,6 +29,8 @@ class ShoppingCart:
             print(f'{item["product"]} - Quantity: {item["quantity"]}')
         print(f"Total: ${self.get_total():.2f}")
 
+# Update clothing_info method to be a _str_ method
+
 class ClothingProduct(Product):
     def __init__(self, name, price, sku, size, color):
         Product.__init__(self, name, price, sku)
@@ -37,6 +39,8 @@ class ClothingProduct(Product):
 
     def clothing_info(self):
         return f"{self.name} (SKU: {self.sku}) - ${self.price:.2f} - Size: {self.size}, Color: {self.color}"
+
+# Update electronics_info method to be a _str_ method
 
 class ElectronicsProduct(Product):
     def __init__(self, name, price, sku, warranty_months):
