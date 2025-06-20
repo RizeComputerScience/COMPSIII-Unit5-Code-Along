@@ -1,4 +1,4 @@
-# COMPS III: Unit 4 Code Along
+# COMPS III: Unit 5 Code Along
 
 This unit we will be finishing our e-commerce store by implementing polymorphism and encapsulation for the store. In this unit we'll be implementing public and private attributes, creating polymorphic functions, and creating getter and setter methods for some of our private attributes.
 
